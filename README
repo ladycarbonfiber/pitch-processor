@@ -1,0 +1,19 @@
+# Coding Assignment
+
+- Processes subset (A, E, X, P) of PITCH orders from standard in (blank lines act as stream end) or desginated input and outputs top 10
+symbols and volumes to standard out or designated output.
+
+- Dependency:
+  - Java 11
+  - apache-commons cli
+
+- Jar located build/libs/pitch-processor-1.0-SNAPSHOT.jar
+
+- Build from source: gradle clean build
+
+- run via java -jar build/libs/pitch-processor-1.0-SNAPSHOT.jar
+  - Optional inputs:
+    - -i <input file\>
+    - -o <output file\>
+ 
+
